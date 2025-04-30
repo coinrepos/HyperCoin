@@ -1,0 +1,83 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv*/
+.env
+.env.local
+
+# TensorFlow model output
+input/
+output/
+checkpoints/
+*.h5
+*.pb
+*.ckpt
+
+# Logs and debug
+*.log
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# React / Next.js / Vercel
+.next/
+out/
+build/
+.cache/
+.vercel/
+
+# Solidity / Hardhat
+artifacts/
+cache/
+typechain/
+coverage/
+coverage.json
+gasReporterOutput.json
+
+# Compiled contracts & temp
+*.tsbuildinfo
+*.abi
+*.bin
+
+# Testing tools
+test-coverage/
+*.lcov
+
+# IDE/editor config files
+.vscode/
+.idea/
+*.swp
+
+# Generated docs or dist
+dist/
+docs/
+
+# Assets & binaries
+*.glb
+*.fbx
+*.blend
+
+# Misc
+*.pid
+*.seed
+*.pem
+
+# GitHub
+*.orig
